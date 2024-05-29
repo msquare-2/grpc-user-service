@@ -1,9 +1,10 @@
 # gRPC User Service
 
-This is a Golang gRPC service that provides functionalities for managing user details and includes a search capability.
+This is a Golang gRPC service that provides functionality to search users.
 
 ## Project Structure
 
+```Bash
 grpc-user-service/
 ├── proto/
 │ └── user.proto
@@ -14,6 +15,7 @@ grpc-user-service/
 ├── main.go
 ├── Dockerfile
 └── README.md
+```
 
 
 - `proto/`: Contains the Protocol Buffers file for defining the gRPC service interface.
